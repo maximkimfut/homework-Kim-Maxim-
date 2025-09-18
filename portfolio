@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div> 
+            <h1>Ким Максим</h1>
+            <h2>Портфолио</h2>
+            <img src="./Photo 2.jpg" alt="" width="140" height="140">
+            <h3>Студент 3-го курса по направлению "Математическое обеспечение и администрирование информационных систем" от имени Г.В. Плеханова</h3>
+            <p>
+                <strong>email:</strong>
+                <a href="mailto: maxim_kim_2005@mail.ru">
+                    maxim_kim_2005@mail.ru
+                </a>
+                <br>
+                <strong>telephone:</strong>
+                <a href="tel: +79154266188">
+                    +79154266188
+                </a>
+                <br>
+                <a href="https://drive.google.com/drive/my-drive">
+                    Github
+                </a>
+            </p>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section id="shortresume">
+                <h2>краткое резюме</h2>
+                <h3>Мотивированный и целеустремленный студент 3-го курса. Ищу возможность применить свои знания в области веб-разработки/мобильной разработки на практике в рамках стажировки или работы на неполный день. Обладаю сильными навыками в решении задач, быстрого обучения и работы в команде. Стремлюсь к профессиональному росту.</h3>
+            </section>
+            <section id="skills">
+                <h2>навыки</h2>
+                <ul>
+                    <li>
+                        <strong>ООП, алгоритмы и структуры данных</strong>
+                        
+                    </li>
+                    <li>
+                        <strong>Python, C++/C#</strong>
+                        
+                    </li>
+                </ul>
+            </section>
+            <section id="exp">
+                <h2>опыт работы</h2>
+                <table>
+                    <colgroup>
+                    <col span="1"> 
+                    <col span="1"> 
+                    <col span="1"> 
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>период</th>
+                            <th>должность</th>
+                            <th>компания</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>-</td>
+                            <td>
+                                <strong>опыта пока нет</strong>
+                            </td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="projects">
+                <h2>ключевые проекты</h2>
+                <ol>
+                    <li>
+                        <h3>Курсовой проект:</h3>
+                        <p>Представление файлов и каталогов в виде дерева</p>
+                    </li>
+                    <li>
+                        <h3>Курсовой проект:</h3>
+                        <p>Оптимизация маршрутов для служб такси с использованием алгоритмов коммивояжера: Применение различных методов для оптимизации маршрутов такси с учетом расстояния</p>
+                    </li>
+                </ol>
+            </section>
+            <section id="info">
+                <h2>доп инфа</h2>
+                <dl>
+                    <dt>Английский язык:</dt>
+                    <dd> Уровень B1 (Intermediate) / B2 (Upper-Intermediate). Способен читать техническую документацию.</dd>
+                    
+                    <dt>Увлечения:</dt>
+                    <dd>Изучаю новые фреймворки, читаю технические блоги, играю на клавишных инструментах + пишу музыку в свободное время.</dd>
+                </dl>
+            </section>
+            <section id="references">
+                <h2>рекомендации</h2>
+                <p>рекомендации предоставляются по запросу</p>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <p>
+                <em>примечание: </em> указан демонстрационный имейл + номер телефона
+                <br>
+                <em>мои контакты: </em> 
+            </p>
+            <ul>
+                <li>
+                    1111111
+                </li>
+                <li>
+                    1111111
+                </li>
+            </ul>
+            <ol>
+                <li>
+                    ntrcn
+                </li>
+                <li>
+                    ntrcn
+                </li>
+                <li>
+                    ntrcn
+                </li>
+            </ol>
+        </div>
+    </footer>
+</body>
+</html>
+body{
+    background-color: bisque;
+}
+section{
+    background-color: rgb(134, 231, 159);
+}
